@@ -1,0 +1,94 @@
+
+#paragraph p{
+  font-size: 18px;
+  color:#6f6f75;
+  line-height: 2em;
+  font-family: cursive;
+  font-weight: 500;
+}
+
+#header{
+  font-weight: 500;
+  font-family: georgia;
+  color: #4d4d4b;
+}
+
+.both{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#description{
+  border: solid 1px #b41414;
+  width: 37%;
+  border-radius: 5px 114px 5px;
+  padding: 41px;
+}
+
+.maincontent {
+    align-self: center;
+}
+
+/*Logo in the page*/
+.mainhead2 {
+  margin-right: 22%;
+  margin-left: 7%;
+}
+
+.logo2{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+}
+
+#Layer_2{
+    width: 100px;
+    height: auto;
+    fill: #ce2121;
+}
+
+
+.name2 {
+    font-size: 44px;
+    font-family: cursive;
+    color: #ce2121;
+    align-self: center;
+}
+
+div#d2 {
+    font-size: 14px;
+    margin-left: 4em;
+}
+
+@media screen and (max-width: 750px) {
+  .both{
+    flex-direction: column;
+  }
+
+  #description{
+    width: 79%;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  #Layer_2 {
+      width: 50px;
+      height: auto;
+      fill: #ce2121;
+  }
+
+  .name2 {
+      font-size: 21px;
+      font-family: cursive;
+      color: #ce2121;
+      align-self: center;
+  }
+
+  div#d2 {
+      font-size: 7px;
+      margin-left: 4em;
+
+    }
+}

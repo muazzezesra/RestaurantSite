@@ -1,0 +1,183 @@
+body {
+  /*
+  background: url("../pics/background.svg") no-repeat fixed center;
+  background-size: cover;
+ background: rgb(255,190,190);
+ background: linear-gradient(90deg, rgba(255,190,190,1) 10%, rgba(252,232,232,1) 50%, rgba(255,190,190,1) 90%);
+ */
+}
+
+.underHeaderBlock{
+  height: 104px;
+  width: 100%;
+}
+
+header{
+  display: flex;
+}
+
+li{
+  list-style: none;
+}
+
+.inline_block_level{
+  display: inline-block;
+}
+
+.logo{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+}
+
+svg {
+    width: 100px;
+    height: auto;
+    fill: #ce2121;
+}
+
+
+.name {
+    font-size: 44px;
+    font-family: cursive;
+    color: #ce2121;
+    align-self: center;
+}
+
+div#d {
+    font-size: 14px;
+    margin-left: 4em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menuItem {
+    color: #742020;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 27px;
+}
+
+.menuItem:hover{
+  color: red;
+}
+
+.left_navigation {
+    display: flex;
+    align-items: center;
+}
+
+a#rightitem {
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.mainhead {
+  margin-right: 22%;
+  margin-left: 7%;
+}
+
+.headerWrapper{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+    z-index: 2;
+}
+
+
+footer {
+    min-height: 135px;
+    background-color: #ce2121;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 56px;
+    display: flex;
+}
+
+footer p{
+    align-self: center;
+}
+a:visited{}
+
+/*To tidy up navigation*/
+  @media screen and (max-width: 1308px) {
+    .mainhead {
+    margin-right: 11%;
+    margin-left: 3%;
+}
+  }
+
+  @media screen and (max-width:1080px) {
+    .mainhead {
+        margin-right: 5%;
+        margin-left: 1%;
+    }
+  }
+
+  @media screen and (max-width:990px) {
+
+      svg {
+          width: 50px;
+          height: auto;
+          fill: #ce2121;
+      }
+
+      .name {
+          font-size: 21px;
+          font-family: cursive;
+          color: #ce2121;
+          align-self: center;
+      }
+
+      div#d {
+          font-size: 7px;
+          margin-left: 4em;
+
+        }
+
+        .mainhead{
+          position: absolute;
+          right: 0%;
+        }
+
+        .menuItem{
+          font-size: 16px;
+          padding: 0px;
+          margin: 0px;
+        }
+
+        .inline_block_level{
+          display: flex;
+          margin-bottom: 5px;
+        }
+
+        a#rightitem {
+            align-self: flex-start;
+            padding: 0px;
+            padding-left: 40px;
+            margin: 0px;
+        }
+
+        ul{
+          margin: 0px;
+        }
+
+        header{
+          flex-direction: column;
+        }
+
+    }
+
+      @media screen and (max-width:330px) {
+        ul{
+          padding: 0px;
+        }
+        a#rightitem {
+            padding: 0px;
+        }
+      }

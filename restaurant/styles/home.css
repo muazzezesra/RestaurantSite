@@ -1,0 +1,76 @@
+#homefulling{
+  background: url(../pics/homepagepic2.jpg) no-repeat center center ;
+  background-size: cover;
+  height: auto;
+  min-height: 765px;
+}
+
+.innercontain{
+    width: 550px;
+    height: 550px;
+    position: sticky;
+    z-index: 1;
+    top: 32%;
+    left: 33%;
+}
+
+#home p{
+  text-decoration: none;
+  color: #ff4612;
+  font-size: 1.75em;
+  background: rgba(255, 255, 255, 0.9);
+  color: #08303e;
+  display: block;
+  clear: both;
+  float: right;
+  font-weight: bold;
+  font-weight: 700;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin: 0 0 2px;
+  margin-top: 0px;
+  padding: 12px 8px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+#info h1{
+  text-align: center;
+  color: #8c3722;
+  font-family: sans-serif;
+}
+
+#info p{
+    font-size: 22px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #cc6700;
+}
+
+.home_wrapper{
+  background: url(../pics/repeat.png) repeat center ;
+}
+
+.wrapem{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: 0px;
+}
+
+
+@media screen and (max-width:600px) {
+
+  .innercontain{
+      width: auto;
+  }
+
+
+
+}
