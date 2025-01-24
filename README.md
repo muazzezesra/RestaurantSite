@@ -30,5 +30,5 @@ Unused CSS files for beverages, desserts, and meals were removed in favor of the
 The pics folder contains some unused images that are not included in the final design.
 
 How to Run:
-Open the index.html file (Home Page) in any modern web browser to view the website.
+Open the home.html file (Home Page) in any modern web browser to view the website.
 Ensure all CSS files are in the same directory structure as referenced in the HTML files.
